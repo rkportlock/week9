@@ -1,0 +1,109 @@
+<!--Bootstrap Navbar, Bootstrap styled table, Bootstrap styled form, 2 pages, Bootstrap grid to format elements-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+    </style>
+</head>
+<body class="container">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">JP's Surf Lessons</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" date-target="navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-labels="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">Waiver</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container-fluid">        
+        <figure class="text-center">
+            <blockquote class="font-italic">
+              <p>Lessons for all ages and levels, from Little Groms to Salty Dogs.</p>
+            </blockquote>
+        </figure>
+        <img src="https://i0.wp.com/srfer.com/wp-content/uploads/2013/07/group-beach-practice.jpg?fit=450%2C269&ssl=1" 
+        class="rounded mx-auto d-block"  alt="Learning">
+    </div>
+
+    <br>
+    
+    <table class="table table-info table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Number of Surfers</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tr>
+            <th>Private</th>
+            <th>One</th>
+            <th>$200 per 2 hours</th>
+        </tr>
+        <tr>
+            <th>Small group</th>
+            <th>Two to Four</th>
+            <th>$150 per 2 hours</th>
+        </tr>
+        <tr>
+            <th>Party wave(large group)</th>
+            <th>Five to Ten</th>
+            <th>$100 per 2 hours</th>
+        </tr>
+    </table>
+
+    <br>
+    
+    <div class="img-fluid">
+        
+        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/e4/d3.jpg" 
+        class="img-thumbnail text-center"  alt="Learning">
+
+    </div>
+
+    <br>
+
+    <form>
+       
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label">Name</label>
+          <input type="name" class="form-control" id="exampleInputName1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your info with anyone else.</div>
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Catch a wave with us!</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html> 
